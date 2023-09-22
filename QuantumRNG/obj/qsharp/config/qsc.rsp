@@ -1,0 +1,43 @@
+--proj
+    "/Users/kevinchau/QuantumRNG/QuantumRNG"
+--build-exe
+--input
+    "/Users/kevinchau/QuantumRNG/Program.qs"
+--output
+    "/Users/kevinchau/QuantumRNG/obj/qsharp/"
+--references
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.BondSchemas.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.qirgeneration/0.28.302812/lib/net6.0/Microsoft.Quantum.LlvmBindings.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.qirgeneration/0.28.302812/lib/net6.0/Microsoft.Quantum.QirGeneration.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsCompilationManager.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsCompiler.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsCore.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsDataStructures.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsDocumentationParser.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.qsharp.core/0.28.302812/lib/net6.0/Microsoft.Quantum.QSharp.Core.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.qsharp.foundation/0.28.302812/lib/net6.0/Microsoft.Quantum.QSharp.Foundation.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsOptimizations.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsSyntaxProcessor.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsTextProcessor.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsTransformations.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.runtime.core/0.28.302812/lib/net6.0/Microsoft.Quantum.Runtime.Core.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.simulators/0.28.302812/lib/net6.0/Microsoft.Quantum.Simulation.Common.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.simulators/0.28.302812/lib/net6.0/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.simulators/0.28.302812/lib/net6.0/Microsoft.Quantum.Simulators.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.standard/0.28.302812/lib/net6.0/Microsoft.Quantum.Standard.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.targets.interfaces/0.28.302812/lib/net6.0/Microsoft.Quantum.Targets.Interfaces.dll"
+    "/Users/kevinchau/.nuget/packages/numsharp/0.20.5/lib/netstandard2.0/NumSharp.Core.dll"
+--load
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.qirgeneration/0.28.302812/build//../lib/net6.0/Microsoft.Quantum.QirGeneration.dll"
+--runtime
+    FullComputation
+--package-load-fallback-folders
+    "/Users/kevinchau/QuantumRNG/bin/Debug/net6.0/"
+--assembly-properties
+    QirOutputPath:"/Users/kevinchau/QuantumRNG/qir/"
+    DocsPackageId:QuantumRNG
+    ExecutionTarget:Any
+    AssemblyName:QuantumRNG
+    ProcessorArchitecture:Unspecified
+    TargetCapability:FullComputation
+    QSharpOutputType:QSharpExe
