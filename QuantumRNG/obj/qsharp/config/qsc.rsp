@@ -1,10 +1,10 @@
 --proj
-    "/Users/kevinchau/QuantumRNG/QuantumRNG"
+    "/Users/kevinchau/qsharp/QuantumRNG/QuantumRNG"
 --build-exe
 --input
-    "/Users/kevinchau/QuantumRNG/Program.qs"
+    "/Users/kevinchau/qsharp/QuantumRNG/Program.qs"
 --output
-    "/Users/kevinchau/QuantumRNG/obj/qsharp/"
+    "/Users/kevinchau/qsharp/QuantumRNG/obj/qsharp/"
 --references
     "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.BondSchemas.dll"
     "/Users/kevinchau/.nuget/packages/microsoft.quantum.qirgeneration/0.28.302812/lib/net6.0/Microsoft.Quantum.LlvmBindings.dll"
@@ -32,9 +32,9 @@
 --runtime
     FullComputation
 --package-load-fallback-folders
-    "/Users/kevinchau/QuantumRNG/bin/Debug/net6.0/"
+    "/Users/kevinchau/qsharp/QuantumRNG/bin/Debug/net6.0/"
 --assembly-properties
-    QirOutputPath:"/Users/kevinchau/QuantumRNG/qir/"
+    QirOutputPath:"/Users/kevinchau/qsharp/QuantumRNG/qir/"
     DocsPackageId:QuantumRNG
     ExecutionTarget:Any
     AssemblyName:QuantumRNG

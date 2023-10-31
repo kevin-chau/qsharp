@@ -191,6 +191,22 @@ declare void @__quantum__rt__result_update_reference_count(%Result*, i32)
 
 declare void @__quantum__rt__array_update_reference_count(%Array*, i32)
 
+define internal void @Microsoft__Quantum__Diagnostics__Fact__body(i1 %actual, %String* %message) {
+entry:
+  %0 = xor i1 %actual, true
+  br i1 %0, label %then0__1, label %continue__1
+
+then0__1:                                         ; preds = %entry
+  call void @__quantum__rt__string_update_reference_count(%String* %message, i32 1)
+  call void @__quantum__rt__fail(%String* %message)
+  unreachable
+
+continue__1:                                      ; preds = %entry
+  ret void
+}
+
+declare void @__quantum__rt__fail(%String*)
+
 define internal i64 @Microsoft__Quantum__Convert__BoolArrayAsInt__body(%Array* %bits) {
 entry:
   %number = alloca i64, align 8
@@ -245,20 +261,6 @@ exit__1:                                          ; preds = %header__1
   ret i64 %17
 }
 
-define internal void @Microsoft__Quantum__Diagnostics__Fact__body(i1 %actual, %String* %message) {
-entry:
-  %0 = xor i1 %actual, true
-  br i1 %0, label %then0__1, label %continue__1
-
-then0__1:                                         ; preds = %entry
-  call void @__quantum__rt__string_update_reference_count(%String* %message, i32 1)
-  call void @__quantum__rt__fail(%String* %message)
-  unreachable
-
-continue__1:                                      ; preds = %entry
-  ret void
-}
-
 declare i64 @__quantum__rt__array_get_size_1d(%Array*)
 
 declare %String* @__quantum__rt__int_to_string(i64)
@@ -272,14 +274,14 @@ define internal %Array* @Microsoft__Quantum__Convert__ResultArrayAsBoolArray__bo
 entry:
   call void @__quantum__rt__array_update_alias_count(%Array* %input, i32 1)
   %0 = call %Callable* @__quantum__rt__callable_create([4 x void (%Tuple*, %Tuple*, %Tuple*)*]* @Microsoft__Quantum__Convert__ResultAsBool__FunctionTable, [2 x void (%Tuple*, i32)*]* null, %Tuple* null)
-  %1 = call %Array* @Microsoft__Quantum__Arrays___d39ac7094d104cd19869df1efb194346_Mapped__body(%Callable* %0, %Array* %input)
+  %1 = call %Array* @Microsoft__Quantum__Arrays___f92627b1a4324f8789b9543c37475e9b_Mapped__body(%Callable* %0, %Array* %input)
   call void @__quantum__rt__array_update_alias_count(%Array* %input, i32 -1)
   call void @__quantum__rt__capture_update_reference_count(%Callable* %0, i32 -1)
   call void @__quantum__rt__callable_update_reference_count(%Callable* %0, i32 -1)
   ret %Array* %1
 }
 
-define internal %Array* @Microsoft__Quantum__Arrays___d39ac7094d104cd19869df1efb194346_Mapped__body(%Callable* %mapper, %Array* %array) {
+define internal %Array* @Microsoft__Quantum__Arrays___f92627b1a4324f8789b9543c37475e9b_Mapped__body(%Callable* %mapper, %Array* %array) {
 entry:
   %retval = alloca %Array*, align 8
   call void @__quantum__rt__capture_update_alias_count(%Callable* %mapper, i32 1)
@@ -411,20 +413,6 @@ declare %Result* @__quantum__rt__result_get_zero()
 
 declare i1 @__quantum__rt__result_equal(%Result*, %Result*)
 
-declare void @__quantum__rt__capture_update_alias_count(%Callable*, i32)
-
-declare void @__quantum__rt__callable_update_alias_count(%Callable*, i32)
-
-declare void @__quantum__rt__callable_invoke(%Callable*, %Tuple*, %Tuple*)
-
-declare %Tuple* @__quantum__rt__tuple_create(i64)
-
-declare %Array* @__quantum__rt__array_copy(%Array*, i1)
-
-declare void @__quantum__rt__tuple_update_reference_count(%Tuple*, i32)
-
-declare void @__quantum__rt__fail(%String*)
-
 define internal void @Microsoft__Quantum__Intrinsic__H__body(%Qubit* %qubit) {
 entry:
   call void @__quantum__qis__h__body(%Qubit* %qubit)
@@ -516,6 +504,18 @@ entry:
   call void @__quantum__rt__array_update_alias_count(%Array* %__controlQubits__, i32 -1)
   ret void
 }
+
+declare void @__quantum__rt__capture_update_alias_count(%Callable*, i32)
+
+declare void @__quantum__rt__callable_update_alias_count(%Callable*, i32)
+
+declare void @__quantum__rt__callable_invoke(%Callable*, %Tuple*, %Tuple*)
+
+declare %Tuple* @__quantum__rt__tuple_create(i64)
+
+declare %Array* @__quantum__rt__array_copy(%Array*, i1)
+
+declare void @__quantum__rt__tuple_update_reference_count(%Tuple*, i32)
 
 define i64 @ComputationalMindset__QuantumExperiments__Main__Interop() #1 {
 entry:
