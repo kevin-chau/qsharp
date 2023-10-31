@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kevinchau/QuantumRNG/QuantumRNG.csproj": {}
+    "/Users/kevinchau/qsharp/QuantumRNG/QuantumRNG.csproj": {}
   },
   "projects": {
-    "/Users/kevinchau/QuantumRNG/QuantumRNG.csproj": {
+    "/Users/kevinchau/qsharp/QuantumRNG/QuantumRNG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kevinchau/QuantumRNG/QuantumRNG.csproj",
+        "projectUniqueName": "/Users/kevinchau/qsharp/QuantumRNG/QuantumRNG.csproj",
         "projectName": "QuantumRNG",
-        "projectPath": "/Users/kevinchau/QuantumRNG/QuantumRNG.csproj",
+        "projectPath": "/Users/kevinchau/qsharp/QuantumRNG/QuantumRNG.csproj",
         "packagesPath": "/Users/kevinchau/.nuget/packages/",
-        "outputPath": "/Users/kevinchau/QuantumRNG/obj/",
+        "outputPath": "/Users/kevinchau/qsharp/QuantumRNG/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kevinchau/.nuget/NuGet/NuGet.Config"

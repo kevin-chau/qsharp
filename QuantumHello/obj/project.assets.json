@@ -7461,11 +7461,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kevinchau/QuantumHello/QuantumHello.csproj",
+      "projectUniqueName": "/Users/kevinchau/qsharp/QuantumHello/QuantumHello.csproj",
       "projectName": "QuantumHello",
-      "projectPath": "/Users/kevinchau/QuantumHello/QuantumHello.csproj",
+      "projectPath": "/Users/kevinchau/qsharp/QuantumHello/QuantumHello.csproj",
       "packagesPath": "/Users/kevinchau/.nuget/packages/",
-      "outputPath": "/Users/kevinchau/QuantumHello/obj/",
+      "outputPath": "/Users/kevinchau/qsharp/QuantumHello/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kevinchau/.nuget/NuGet/NuGet.Config"

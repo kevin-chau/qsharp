@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VaoiW7c61esDe8SRjv9oY+6l1rJAUVUpy3tlvZ1yc98fq9P2wjHXVEGdCyH3gTi3I+dFQptJjLTQqzL+5qsrUg==",
+  "dgSpecHash": "isEzocTGoyYpGqbtFCqTkGw8nxVFRRQCcf8kohtgoxcFL0JeWxdRW1Y1KC0YycyIPNFYlbGQM9TFAF7G/CrW8A==",
   "success": true,
-  "projectFilePath": "/Users/kevinchau/QuantumRNG/QuantumRNG.csproj",
+  "projectFilePath": "/Users/kevinchau/qsharp/QuantumRNG/QuantumRNG.csproj",
   "expectedPackageFiles": [
     "/Users/kevinchau/.nuget/packages/bond.core.csharp/9.0.3/bond.core.csharp.9.0.3.nupkg.sha512",
     "/Users/kevinchau/.nuget/packages/bond.csharp/9.0.3/bond.csharp.9.0.3.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tqDP8EDzJq/BIt+WJP5tFv6ZGcwTodb/NGpV3OTY4w9MDR4Ud6Tw3h8Gj5oFh4goq4SwWpHPiVVclZOHNzkoDA==",
+  "dgSpecHash": "sPF1F81YhEOTGsHkqNwYem1Zr5E1a8ir40zGUtuZHTxDxT6mayZEPYAfbdDf14tXtYu2JJvYmPuHYGFfo1z0IA==",
   "success": true,
-  "projectFilePath": "/Users/kevinchau/QuantumHello/QuantumHello.csproj",
+  "projectFilePath": "/Users/kevinchau/qsharp/QuantumHello/QuantumHello.csproj",
   "expectedPackageFiles": [
     "/Users/kevinchau/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/kevinchau/.nuget/packages/azure.identity/1.5.0/azure.identity.1.5.0.nupkg.sha512",
