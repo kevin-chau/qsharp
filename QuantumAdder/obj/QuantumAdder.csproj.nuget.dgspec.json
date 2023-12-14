@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kevinchau/qsharp/QuantumAdder/QuantumAdder.csproj": {}
+    "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/QuantumAdder/QuantumAdder.csproj": {}
   },
   "projects": {
-    "/Users/kevinchau/qsharp/QuantumAdder/QuantumAdder.csproj": {
+    "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/QuantumAdder/QuantumAdder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kevinchau/qsharp/QuantumAdder/QuantumAdder.csproj",
+        "projectUniqueName": "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/QuantumAdder/QuantumAdder.csproj",
         "projectName": "QuantumAdder",
-        "projectPath": "/Users/kevinchau/qsharp/QuantumAdder/QuantumAdder.csproj",
+        "projectPath": "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/QuantumAdder/QuantumAdder.csproj",
         "packagesPath": "/Users/kevinchau/.nuget/packages/",
-        "outputPath": "/Users/kevinchau/qsharp/QuantumAdder/obj/",
+        "outputPath": "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/QuantumAdder/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kevinchau/.nuget/NuGet/NuGet.Config"

@@ -1,17 +1,94 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kevinchau/qsharp/QuantumOneQubit/QuantumOneQubit.csproj": {}
+    "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/QuantumOneQubit/QuantumOneQubit.csproj": {}
   },
   "projects": {
-    "/Users/kevinchau/qsharp/QuantumOneQubit/QuantumOneQubit.csproj": {
+    "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/qsharp-integrations/src/OpenQasmExporter/OpenQasmExporter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kevinchau/qsharp/QuantumOneQubit/QuantumOneQubit.csproj",
-        "projectName": "QuantumOneQubit",
-        "projectPath": "/Users/kevinchau/qsharp/QuantumOneQubit/QuantumOneQubit.csproj",
+        "projectUniqueName": "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/qsharp-integrations/src/OpenQasmExporter/OpenQasmExporter.csproj",
+        "projectName": "QsharpCommunity.Simulators.OpenQasmExporter",
+        "projectPath": "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/qsharp-integrations/src/OpenQasmExporter/OpenQasmExporter.csproj",
         "packagesPath": "/Users/kevinchau/.nuget/packages/",
-        "outputPath": "/Users/kevinchau/qsharp/QuantumOneQubit/obj/",
+        "outputPath": "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/qsharp-integrations/src/OpenQasmExporter/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kevinchau/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Jupyter.Core": {
+              "target": "Package",
+              "version": "[1.5.152203, )"
+            },
+            "Microsoft.Quantum.IQSharp.Jupyter": {
+              "target": "Package",
+              "version": "[0.18.2107153439, )"
+            },
+            "Microsoft.Quantum.Simulators": {
+              "target": "Package",
+              "version": "[0.18.2107153439, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.414/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/QuantumOneQubit/QuantumOneQubit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/QuantumOneQubit/QuantumOneQubit.csproj",
+        "projectName": "QuantumOneQubit",
+        "projectPath": "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/QuantumOneQubit/QuantumOneQubit.csproj",
+        "packagesPath": "/Users/kevinchau/.nuget/packages/",
+        "outputPath": "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/QuantumOneQubit/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kevinchau/.nuget/NuGet/NuGet.Config"
@@ -25,7 +102,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/qsharp-integrations/src/OpenQasmExporter/OpenQasmExporter.csproj": {
+                "projectPath": "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/qsharp-integrations/src/OpenQasmExporter/OpenQasmExporter.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -38,12 +119,22 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Quantum.CSharpGeneration": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.28.302812, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.EntryPointDriver": {
+              "target": "Package",
+              "version": "[0.28.302812, )",
+              "autoReferenced": true
+            },
             "Microsoft.Quantum.QSharp.Core": {
               "target": "Package",
               "version": "[0.28.302812, )"
             },
-            "Microsoft.Quantum.QirGeneration": {
-              "suppressParent": "All",
+            "Microsoft.Quantum.Runtime.Core": {
               "target": "Package",
               "version": "[0.28.302812, )",
               "autoReferenced": true
@@ -51,6 +142,11 @@
             "Microsoft.Quantum.Standard": {
               "target": "Package",
               "version": "[0.28.302812, )"
+            },
+            "Microsoft.Quantum.Targets.Interfaces": {
+              "target": "Package",
+              "version": "[0.28.302812, )",
+              "autoReferenced": true
             }
           },
           "imports": [

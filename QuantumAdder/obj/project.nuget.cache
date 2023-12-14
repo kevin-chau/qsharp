@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9F3C0TNSnlp2x8kpCwjEFaOKZJh4rFEoy4sLrlRsqp72/ZslrksAFQK6CbXgbp2zMHlyzFvbSyeqykyccYIRyg==",
+  "dgSpecHash": "9Zn/FtKG1a7o4thKNf2JWI+lHB9e0vtAGY0Ln2x5SbrF/GVaBm0+iy/gcLJfX7WfDO/ISv+6Iub6eFEvR1l8fg==",
   "success": true,
-  "projectFilePath": "/Users/kevinchau/qsharp/QuantumAdder/QuantumAdder.csproj",
+  "projectFilePath": "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/QuantumAdder/QuantumAdder.csproj",
   "expectedPackageFiles": [
     "/Users/kevinchau/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/kevinchau/.nuget/packages/azure.identity/1.5.0/azure.identity.1.5.0.nupkg.sha512",

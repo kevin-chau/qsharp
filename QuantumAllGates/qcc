@@ -1,0 +1,2 @@
+#!/bin/bash
+dotnet build QuantumAllGates.csproj /p:QirGeneration=true

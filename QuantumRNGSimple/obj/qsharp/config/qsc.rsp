@@ -1,0 +1,79 @@
+--proj
+    "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/QuantumRNGSimple/QuantumRNG"
+--build-exe
+--input
+    "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/QuantumRNGSimple/QuantumRNGSimple.qs"
+--output
+    "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/QuantumRNGSimple/obj/qsharp/"
+--references
+    "/Users/kevinchau/.nuget/packages/asyncio/0.1.26/lib/netstandard1.3/AsyncIO.dll"
+    "/Users/kevinchau/.nuget/packages/azure.core/1.25.0/lib/net5.0/Azure.Core.dll"
+    "/Users/kevinchau/.nuget/packages/azure.identity/1.5.0/lib/netstandard2.0/Azure.Identity.dll"
+    "/Users/kevinchau/.nuget/packages/azure.quantum.jobs/1.0.0-beta.3/lib/netstandard2.0/Azure.Quantum.Jobs.dll"
+    "/Users/kevinchau/.nuget/packages/azure.storage.blobs/12.13.1/lib/netstandard2.1/Azure.Storage.Blobs.dll"
+    "/Users/kevinchau/.nuget/packages/azure.storage.common/12.12.0/lib/netstandard2.0/Azure.Storage.Common.dll"
+    "/Users/kevinchau/.nuget/packages/mcmaster.extensions.commandlineutils/2.2.5/lib/netstandard2.0/McMaster.Extensions.CommandLineUtils.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.azure.quantum.client/0.28.302812/lib/net6.0/Microsoft.Azure.Quantum.Client.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.extensions.configuration.abstractions/3.0.0/lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Abstractions.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.extensions.configuration.binder/3.0.0/lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Binder.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.extensions.configuration/3.0.0/lib/netcoreapp3.0/Microsoft.Extensions.Configuration.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.0.0/lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.extensions.dependencyinjection/3.0.0/lib/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.extensions.logging.abstractions/3.0.0/lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.extensions.logging.configuration/3.0.0/lib/netcoreapp3.0/Microsoft.Extensions.Logging.Configuration.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.extensions.logging.console/3.0.0/lib/netcoreapp3.0/Microsoft.Extensions.Logging.Console.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.extensions.logging/3.0.0/lib/netcoreapp3.0/Microsoft.Extensions.Logging.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.extensions.options.configurationextensions/3.0.0/lib/netcoreapp3.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.extensions.options/3.0.0/lib/netcoreapp3.0/Microsoft.Extensions.Options.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.extensions.primitives/3.0.0/lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.identity.client/4.30.1/lib/netcoreapp2.1/Microsoft.Identity.Client.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.identity.client.extensions.msal/2.18.4/lib/netcoreapp2.1/Microsoft.Identity.Client.Extensions.Msal.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.jupyter.core/1.5.152203/lib/netstandard2.1/Microsoft.Jupyter.Core.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.BondSchemas.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.entrypointdriver/0.28.302812/lib/net6.0/Microsoft.Quantum.EntryPointDriver.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.iqsharp.core/0.18.2107153439/lib/netstandard2.1/Microsoft.Quantum.IQSharp.Core.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.iqsharp.jupyter/0.18.2107153439/lib/netstandard2.1/Microsoft.Quantum.IQSharp.Jupyter.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsCompilationManager.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsCompiler.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsCore.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsDataStructures.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsDocumentationParser.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.qsharp.core/0.28.302812/lib/net6.0/Microsoft.Quantum.QSharp.Core.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.qsharp.foundation/0.28.302812/lib/net6.0/Microsoft.Quantum.QSharp.Foundation.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsOptimizations.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsSyntaxProcessor.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsTextProcessor.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsTransformations.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.runtime.core/0.28.302812/lib/net6.0/Microsoft.Quantum.Runtime.Core.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.simulators/0.28.302812/lib/net6.0/Microsoft.Quantum.Simulation.Common.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.simulators/0.28.302812/lib/net6.0/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.simulators/0.28.302812/lib/net6.0/Microsoft.Quantum.Simulators.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.standard/0.28.302812/lib/net6.0/Microsoft.Quantum.Standard.dll"
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.targets.interfaces/0.28.302812/lib/net6.0/Microsoft.Quantum.Targets.Interfaces.dll"
+    "/Users/kevinchau/.nuget/packages/windowsazure.storage/9.3.3/lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll"
+    "/Users/kevinchau/.nuget/packages/netmq/4.0.0.1/lib/netstandard1.3/NetMQ.dll"
+    "/Users/kevinchau/.nuget/packages/nuget.common/5.1.0/lib/netstandard2.0/NuGet.Common.dll"
+    "/Users/kevinchau/.nuget/packages/nuget.configuration/5.1.0/lib/netstandard2.0/NuGet.Configuration.dll"
+    "/Users/kevinchau/.nuget/packages/nuget.frameworks/5.1.0/lib/netstandard2.0/NuGet.Frameworks.dll"
+    "/Users/kevinchau/.nuget/packages/nuget.packaging/5.1.0/lib/netstandard2.0/NuGet.Packaging.dll"
+    "/Users/kevinchau/.nuget/packages/nuget.protocol/5.1.0/lib/netstandard2.0/NuGet.Protocol.dll"
+    "/Users/kevinchau/.nuget/packages/nuget.resolver/5.1.0/lib/netstandard2.0/NuGet.Resolver.dll"
+    "/Users/kevinchau/.nuget/packages/nuget.versioning/5.1.0/lib/netstandard2.0/NuGet.Versioning.dll"
+    "/Users/kevinchau/.nuget/packages/numsharp/0.20.5/lib/netstandard2.0/NumSharp.Core.dll"
+    "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/qsharp-integrations/src/OpenQasmExporter/bin/Debug/netcoreapp3.1/OpenQasmExporter.dll"
+--load
+    "/Users/kevinchau/.nuget/packages/microsoft.quantum.csharpgeneration/0.28.302812/build//../lib/net6.0/Microsoft.Quantum.CSharpGeneration.dll"
+--runtime
+    FullComputation
+--skip-monomorphization
+--package-load-fallback-folders
+    "/Users/kevinchau/EECS/EECS254/Project/qsharpcode/QuantumRNGSimple/bin/Debug/net6.0/"
+--assembly-properties
+    DocsPackageId:QuantumRNG
+    ExecutionTarget:Any
+    DefaultSimulator:QSharpCommunity.Simulators.OpenQasmExporter.Exporter
+    AssemblyName:QuantumRNG
+    ProcessorArchitecture:Unspecified
+    TargetCapability:FullComputation
+    QSharpOutputType:QSharpExe
